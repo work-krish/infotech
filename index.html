@@ -14,6 +14,7 @@
     <header class="site-header">
         <div class="header__inner">
             <a class="brand" href="#" aria-label="Resume Builder Home">
+                <!-- IMPORTANT: You need to replace this logo with the one that includes the text "COMPANY business tagline" -->
                 <img src="assets/logo.png" alt="Brand Logo" class="brand__logo">
             </a>
             <nav class="primary-nav" aria-label="Primary Navigation">
@@ -31,19 +32,14 @@
         <section class="hero-section">
             <div class="hero-section__container">
                 <div class="hero-section__content">
-                    <h1 class="hero-section__title">Your Resume Deserves a yes let’s make it happen</h1>
+                    <h1 class="hero-section__title">Your Resume <span class="text-highlight">Deserves A Yes Let's Make It Happen</span></h1>
+                    <div class="hero-decoration" aria-hidden="true">
+                        
+                    </div>
                     <p class="hero-section__description">If your resume isn’t getting responses, it’s time for an upgrade. Get an ATS-optimized resume crafted by HR experts to help you land more interviews. Our resumes are designed to get your foot in the door and place your name at the top of the shortlist.</p>
                     <div class="hero-section__actions">
-                        <a href="#packages" class="btn btn--ghost">Resume Pakages</a>
+                        <a href="#packages" class="btn btn--ghost">Resume Packages</a>
                         <a href="#contact" class="btn btn--primary">Contact us</a>
-                    </div>
-                    <div class="hero-decoration" aria-hidden="true">
-                        <svg class="hero-decoration__v1" width="269" height="6" viewBox="0 0 269 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="0" y1="3" x2="269" y2="3" stroke="#FA1239" stroke-width="3"/>
-                        </svg>
-                        <svg class="hero-decoration__v2" width="363" height="9" viewBox="0 0 363 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="0" y1="4.5" x2="363" y2="4.5" stroke="#FA1239" stroke-width="3"/>
-                        </svg>
                     </div>
                 </div>
                 <div class="hero-section__image-wrapper">
@@ -51,7 +47,11 @@
                 </div>
                 <div class="hero-badge hero-badge--stat" role="status" aria-label="260 plus online resumes created">
                     <div class="hero-badge__icon hero-badge__icon--mortar">
-                        <div class="hero-badge__icon-rect"></div>
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 9L12 14L2 9L12 4L22 9Z" fill="white"/>
+                            <path d="M4 10V14.5L12 18.5L20 14.5V10L12 14L4 10Z" fill="white"/>
+                            <path d="M21 13.5V15.5C21 15.5 20 16 19 16C18 16 17.5 15 17.5 15C17.5 15 18 14.5 19 14.5C20 14.5 21 13.5 21 13.5Z" fill="white"/>
+                        </svg>
                     </div>
                     <div class="hero-badge__text">
                         <div class="hero-badge__value">260+</div>
@@ -60,14 +60,16 @@
                 </div>
                 <div class="hero-badge hero-badge--rating" role="img" aria-label="Instructor rating 4.9 out of 5">
                     <div class="hero-badge__score">4.9</div>
-                    <div class="hero-badge__stars" aria-hidden="true">
-                        <svg width="17.12" height="16.35" viewBox="0 0 24 24" fill="#FFAB00" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.46 4.73L5.82 21z"/></svg>
-                        <svg width="17.12" height="16.35" viewBox="0 0 24 24" fill="#FFAB00" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.46 4.73L5.82 21z"/></svg>
-                        <svg width="17.12" height="16.35" viewBox="0 0 24 24" fill="#FFAB00" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.46 4.73L5.82 21z"/></svg>
-                        <svg width="17.12" height="16.35" viewBox="0 0 24 24" fill="#FFAB00" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.46 4.73L5.82 21z"/></svg>
-                        <svg width="17.12" height="16.35" viewBox="0 0 24 24" fill="#FFAB00" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                    <div class="hero-badge__stars-and-label">
+                        <div class="hero-badge__stars" aria-hidden="true">
+                            <svg width="17.12" height="16.35" viewBox="0 0 24 24" fill="#FFAB00" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg width="17.12" height="16.35" viewBox="0 0 24 24" fill="#FFAB00" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg width="17.12" height="16.35" viewBox="0 0 24 24" fill="#FFAB00" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg width="17.12" height="16.35" viewBox="0 0 24 24" fill="#FFAB00" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                            <svg width="17.12" height="16.35" viewBox="0 0 24 24" fill="#FFAB00" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                        </div>
+                        <div class="hero-badge__label">Instructor Rating</div>
                     </div>
-                    <div class="hero-badge__label">Instructor Rating</div>
                 </div>
             </div>
         </section>
@@ -105,5 +107,4 @@
 
 </body>
 </html>
-
 
